@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/outline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/location"
+            android:icon="@drawable/location"
+            android:title="Visit our nearest station" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/info"
+            android:title="About us" />
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/help"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/bluetooth"
+            android:icon="@drawable/nav_bluetooth"
+            android:title="bluetooth" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/show"
+                    android:icon="@drawable/baseline_show"
+                    android:title="show" />
+                <item
+                    android:id="@+id/update"
+                    android:icon="@drawable/baseline_update"
+                    android:title="update" />
+                <item
+                    android:id="@+id/search"
+                    android:icon="@drawable/baseline_search_24"
+                    android:title="search" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
